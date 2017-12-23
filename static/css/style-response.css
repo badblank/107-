@@ -1,0 +1,250 @@
+@media only screen and (min-width: 0px) and (max-width: 1300px){
+  html, body{
+    font-size: 12px;
+  }
+  .header,
+  header#header{
+    height: 58px;
+  }
+  .header img#logo,
+  header#header a.logo img{
+    height: 58px
+  }
+  .header .head-wrap.group,
+  .header .wrap.group{
+    margin: 0 auto;
+    width: 1024px;
+  }
+  .header #back_active{
+    background-size: 85px 70px;
+  }
+  .header nav{
+    right:30px;
+  }
+  .header ul li{
+    width: 85px;
+  }
+  .header ul li a{
+    line-height: 58px;
+  }
+  header#header nav{
+    margin-right: 20px;
+  }
+  header#header nav li{
+    width: 85px;
+  }
+  header#header nav li a{
+    line-height: 58px;
+  }
+  .page-content{
+    padding-top:59px;
+    background-position: center 59px;
+  }
+  .case-box{
+    width: 800px;
+  }
+  .caseul ul{
+    width: 820px;
+  }
+  #aboutus .description{
+    position: absolute;
+    display: block;
+    top: 25%;
+    left: 5%;
+    width: 500px;
+    height: 344px;
+    color: #222;
+  }
+  #aboutus .description h1{
+    float: left;
+    clear: both;
+    padding: 0 20px;
+    margin: 0;
+    line-height: 48px;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  #aboutus .content{
+    float: left;
+    padding-top: 15px;
+    width: 500px;
+    line-height: 1.8;
+    font-size:16px;
+    font-weight: normal;
+  }
+  .about-wrapper{
+    width: 800px;
+  }
+  .about-item{
+    width: 860px;
+  }
+  .about-item dl{
+    width: 400px;
+  }
+  .about-item dt img{
+    width: 400px;
+    height: 400px;
+  }
+  .service-item{
+    float: left;
+    margin:50px 25px;
+    width: 210px;
+  }
+  #case .case-content{
+    width: 1040px;
+  }
+  #case .case-item{
+    margin: 30px 35px;
+  }
+  #news{
+    background: url(../img/news-bg.png) center 58px no-repeat;
+  }
+  #news .news-title{
+    width: 960px;
+  }
+  .news-list{
+    width: 960px;
+  }
+  .news-more{
+    width: 960px;
+  }
+  #contact .description{
+    margin-top: -200px;
+  }
+  .contact-content{
+    width: 900px;
+  }
+  .footer-c .links{
+    width: 600px;
+  }
+  .contact-content dl{
+    width: 450px;
+  }
+  .contact-bottom .wrapper{
+    width: 900px;
+  }
+  .ih-item.circle {
+    position: relative;
+    width: 180px;
+    height: 180px;
+  }
+  .ih-item.circle .img {
+    width: 180px;
+    height: 180px;
+  }
+  .ih-item.square {
+    width: 200px;
+    height: 180px;
+    border: 8px solid #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  .ih-item.circle.effect1 .spinner {
+    width: 190px;
+    height: 190px;
+  }
+  .ih-item.circle.effect1 .info h3 {
+    letter-spacing: 0px;
+    font-size: 20px;
+    margin: 0 30px;
+    padding: 30px 0 0 0;
+    height: 70px;
+    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  .ih-item.circle.effect1 .info p {
+    color: #bbb;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .next-slide,
+  .prev-slide{
+    width: 70px;
+  }
+  .light-next,
+  .dark-next{
+    
+  }
+  .page-news-list .news-title,
+  .page-news-list .news-list{
+    width: 1000px;
+  }
+  .case-main{
+    width: 1000px;
+  }
+  .case-pic{
+    width: 660px;
+  }
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 768px){
+  .header{
+    position: relative;
+    height: 56px;
+  }
+  .header img#logo{
+    height: 56px
+  }
+  .header #back_active,
+  .header nav{
+    display: none;
+  }
+  #aboutus{}
+  #aboutus .description{
+    top: 8px;
+    padding: 23px;
+    margin: 0;
+    width: 274px;
+  }
+  #aboutus .description h1{
+    top: 0;
+    left: 0;
+    width: 274px;
+    line-height: 35px;
+    font-size: 27px;
+  }
+  #aboutus .description .content{
+    width: 274px;
+    font-size:12px;
+  }
+  #aboutus .description .partners{
+    display: none;
+  }
+  #aboutus .light-next,
+  #service,
+  #workflow,
+  #case,
+  #news,
+  .contact-bottom{
+    display: none;
+  }
+  #contact{
+    position: relative;
+    height: 670px;
+  }
+  #contact .description{
+    margin-top: -280px;
+  }
+  .contact-content dl{
+    float: none;
+    display: block;
+    margin: 0 20px;
+    width: 440px;
+  }
+  .contact-content dt{
+    margin-bottom: 20px;
+    line-height: 32px;
+    font-size: 32px;
+  }
+  .contact-num a{
+    font-size: 20px;
+  }
+  .contact-content .staff{
+    margin-top: 40px;
+    padding-left: 0;
+  }
+
+}
